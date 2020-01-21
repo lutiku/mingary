@@ -1,0 +1,1234 @@
+/*
+Theme Name:Mingary
+Author:Ndongala Lutiku
+Description: Template WordPress
+Version: 0.0.1
+Tags: bootstrap
+*/
+body
+{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+ p
+{
+    font-family: Roboto, sans-serif;
+}
+
+p.bloctextmeta
+{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+.header
+{
+   background-image: url("img/man.jpg");
+    background-repeat: no-repeat;
+    background-color: #e4e6ea;
+    background-size: 100%;
+    width :100%;
+    height: 822px; /*400px pour les autres pages */
+
+}
+
+
+.headerothers
+{
+    background-image: url("img/ateliers.jpeg");
+    background-size: 1440px 526px;
+    background-repeat: no-repeat;
+
+    width :100%;
+    height: 526px;
+    background-color: #e4e6ea;
+
+}
+
+nav ul li
+{
+    text-decoration: none;
+    display: inline;
+    float: right;
+    margin-top: 10px;
+
+}
+/*
+.meta
+{
+    width: 100%;
+    height:637px;
+    background-color: #ffffff;
+    display: flex;
+}
+.textmeta, .imagesmeta
+{
+    width: 50%;
+    height: 100%;
+}
+.textmeta
+{
+    background-color: white;
+}
+.bloctextmeta
+{
+    width: 61%;
+    heigth:71px;
+    background-color: grey;
+    margin: 12% auto;
+}
+.imagesmeta
+{
+    background-color: darkgray;
+    display: flex;
+}
+.imgemeta
+{
+    background-color: #C4C4C4;
+    width: 459px;
+    height: 440px;
+    margin-top: 10%;
+}
+
+.mamission
+{
+    width:287px;
+    height: 275px;
+    background-color: #092acf;
+    z-index: 1;
+    position: absolute;
+    margin:10% 22%;
+}
+
+
+h2.beyondtheexpeted
+{
+    margin-left: 15%;
+
+height: 25px;
+font-size: 30px  ;
+margin-top: 8% ;
+font-family: 'Noto Sans', sans-serif;
+font-weight: 500;
+
+}
+
+ */
+
+.parallax {
+
+    background-image: url('https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80%27');
+
+
+    height: 50%;
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+
+    .meta
+    {
+    width: 100%;
+    height:637px;
+    background-color: #ffffff;
+    display: flex;
+    }
+    .textmeta, .imagesmeta
+    {
+    width: 50%;
+    height: 100%;
+    }
+    .textmeta
+    {
+    background-color: white;
+    }
+    .bloctextmeta
+    {
+    width: 61%;
+    heigth:71px;
+    /*background-color: #cfe0e8;*/
+    margin: 5% 30%;
+    }
+    .imagesmeta
+    {
+    display: flex;
+    }
+    .imgemeta
+    {
+    background-color: #C4C4C4;
+    width: 359px;
+    height: 340px;
+    margin-top: 10%;
+    background-image: url('https://images.unsplash.com/photo-1576598214280-9b18c9836c1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+    border-radius: 50%;
+    background-size: cover;
+    }
+
+    .mamission
+    {
+    width:287px;
+    height: 275px;
+    background-color: #092acf;
+    z-index: 1;
+    position: absolute;
+    margin:12% 10%;
+    border-radius: 50%;
+    background-image: url('https://images.unsplash.com/photo-1567002022603-402e9dbb4887?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    }
+
+    h2.beyondtheexpeted
+    {
+    margin-left: 15%;
+    /background-color: red;/
+    height: 25px;
+    font-size: 68.5px  ;
+    margin-top: 6.5% ;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+
+    }
+
+div.avis
+{
+    width: 100%;
+    height:537px;
+    background-color: #f0f2f1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+/*
+div.avis_1
+{
+    background-color: darkgray;
+    width: 25%;
+    height: 80px;
+    margin-top: 10%;
+}*/
+
+/*______________________________________*/
+.ateliersaccompagnements
+{
+    width: 100%;
+    height:637px;
+    background-color:#f0f2f1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+div.nosateliersetacc, div.clientssatisfaits
+{
+    width: 81%;
+    height: 8px;
+    text-align: center;
+    margin: auto;
+}
+div.nosateliersetacc h2, div.clientssatisfaits h2
+{
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+}
+
+
+
+.principauxateliers_1, .principauxateliers_2, .principauxateliers_3
+{
+    width: 277px;
+    height: 278px;
+    background-color:#C4C4C4 ;
+    margin-top: 1%;
+}
+
+div.divprincipauxatelier_
+{
+    /*background-color: red;*/
+    width:60%;
+    height :285px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*
+.principauxateliers_1 {background-image: url("");}
+.principauxateliers_2  {background-image: url("");}
+.principauxateliers_3  {background-image: url("");}
+
+
+
+button.seemore
+{
+    background-color: #275674;
+    width: 40px;
+    height: 40px;
+    margin-top: 86%;
+    margin-left: 86%;
+
+}*/
+/**Test Carte nos ateliers et accompagnements*/
+
+
+
+.ateliersaccompagnements .card-container {
+    position: relative;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: auto;
+}
+
+.ateliersaccompagnements .card {
+    min-width: 275px;
+    width: 275px;
+    position: relative;
+    margin: 15px 15px;
+    height: 350px;
+    border-radius: 7px;
+    background-size: cover;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.3);
+    transition: 0.2s all linear;
+    border: 1px solid rgba(128, 128, 128, 0.15);
+    box-sizing: border-box;
+}
+.ateliersaccompagnements .card_1
+{
+    background-image: url("https://images.unsplash.com/photo-1511376979163-f804dff7ad7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    background-repeat: no-repeat;
+    background-size: 275px 350px;
+
+}
+.ateliersaccompagnements .card_2
+{
+    background-image: url("https://media-exp2.licdn.com/dms/image/C5622AQHgPRzbkXBMSg/feedshare-shrink_800/0?e=1582156800&v=beta&t=pRIUJplEotfG2n_1g4Rxl4BAnC45zQ77FmosaAppmjI");
+    background-repeat: no-repeat;
+    background-size: 275px 350px;
+
+}
+.ateliersaccompagnements .card_3
+{
+    background-image: url("https://images.unsplash.com/photo-1571236207041-5fb70cec466e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: 275px 350px;
+
+}
+
+
+
+.ateliersaccompagnements .card .card-social {
+    position: absolute;
+    height: 75px;
+    width: 100%;
+    /*background: red;*/
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.5);
+    top: 275px;
+}
+
+.card-social p
+{
+    font-size: 15px;
+    font-family: 'Montsserat',sans-serif;
+    text-align: center;
+    /* margin: auto; */
+    margin-top: 10%;
+    color: white;
+    font-weight: bold;
+}
+
+
+.ateliersaccompagnements .card .card-social ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.ateliersaccompagnements .card .card-social ul li {
+    height: 100%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.85);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.ateliersaccompagnements .card .card-social ul li:hover {
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, 0.7);
+    transition: all 0.1s linear;
+}
+.ateliersaccompagnements .card .card-image {
+    width: 100%;
+    height: 275px;
+    position: relative;
+    background-image: url("");
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.ateliersaccompagnements .card .card-info {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    top: -265px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-family: "Open Sans";
+    color: rgba(255, 255, 255, 0.85);
+}
+.ateliersaccompagnements .card .card-info .card-title {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 35px;
+    height: 35px;
+    width: 40%;
+    position: relative;
+    top: 0px;
+    font-size: 15px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+}
+.ateliersaccompagnements .card .card-info .card-detail {
+    line-height: 1.5em;
+    font-size: 1em;
+    height:  217.5px;
+    background: rgba(0, 0, 0, 0.6);
+    position: relative;
+    top: 5px;
+    padding: 5px 20px 0px 20px;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: center top;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+}
+.card-detail p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 15%;
+
+}
+.ateliersaccompagnements .card:hover {
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.3);
+}
+.ateliersaccompagnements .card:hover .card-info .card-title {
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.3);
+    transition: 0.3s all linear;
+}
+.ateliersaccompagnements .card:hover .card-info .card-detail {
+    opacity: 1;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.3);
+    transition: 0.35s all linear;
+    transition-delay: 0.1s;
+    transform: scaleY(1);
+}
+
+
+.ateliersaccompagnements .card:nth-of-type(2) .card-image {
+    background-image: url("");
+}
+.ateliersaccompagnements .card:nth-of-type(3) .card-image {
+    background-image: url("");
+}
+.ateliersaccompagnements .card:nth-of-type(4) .card-image {
+    background-image: url("");
+}
+
+
+
+
+/*****__________________________________*/
+
+
+
+.nouscontacter
+{    width: 100%;
+    height:500px;
+    background-color: darkgray;
+    display: flex;
+
+}
+
+.message, .formulaire
+{
+    width: 50%;
+    height: 100%;
+}
+.message
+{
+    background-color: #f1fff6;
+}
+
+.formulaire
+{
+    background-color: white;
+}
+/*_____________________ACCUEIL_________________*/
+    /*______________Ateliers et accompagnements*______________*/
+
+/*_______________________Footer_________________________*/
+footer.footer
+{
+    width: 100%;
+    height: 294px;
+    background-color: #275674;
+
+    display: flex;
+    justify-content: space-between;
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color:gray;
+    text-align: center;
+}
+
+div.logo
+{
+    width: 115.71px;
+    height: 64.29px;
+    /*background-color: darkgray;*/
+    margin: 8% 12%;
+}
+
+div.coordonnees
+{
+    width:477px;
+    height: 21px;
+   /* background-color: darkgray;*/
+    margin: auto;
+    display: flex;
+    margin-top: 15%;
+    margin-left: 4%;
+
+
+
+}
+
+div.coordonnees p
+{
+    padding: 2px 50px 20px 10px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+
+
+}
+div.coordonnees p:hover
+{
+    text-decoration: none;
+}
+
+
+div.socialmedia
+{
+    /*background-color: rebeccapurple;*/
+   width: 120px;
+    height: 50px;
+    margin-top: 12% ;
+    margin-right: 10px;
+    display: flex;
+}
+.iconsocialmedia
+{
+    width: 50%;
+    height: 100%;
+    /*background-color: darkgray;*/
+}
+
+
+
+div.icon
+{   width: 20px;
+    height: 20px;
+    /*background-color: #275674;*/
+
+}
+
+
+
+/*________________________NAVRBAR____________________________*/
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script|Libre+Baskerville|Lobster');
+
+a.nav-link
+{
+    color: white !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+
+}
+a.nav-link:hover
+{
+    opacity: 80%;
+    filter:drop-shadow(0 0 0.75rem white);
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size:25px;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+    font-weight:700;
+    letter-spacing:0.1em;
+}
+.navbar-brand img
+{
+    width: inherit;
+    height: inherit;
+    filter: drop-shadow(0 0 0.5rem black);
+}
+
+.navbar-nav .nav-item .nav-link{
+    padding: 1.1em 1em!important;
+    font-size: 120%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    filter: drop-shadow(0 0 0.5rem black);
+}
+
+/*
+.dropdown-item:hover{background-color:#fed136;color:#fff;}
+nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
+    -moz-transition: padding-top .3s,padding-bottom .3s;
+    transition: padding-top .3s,padding-bottom .3s;
+    border: none;
+}*/
+
+
+.shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #275674;
+}
+/*_____________Text banière page d'accueil______________*/
+.banner{
+
+    text-align: center;
+    color: #fff;
+
+
+}
+
+.banner-text {
+    padding: 25% 250px 150px 0;
+}
+
+.banner-heading {
+    font-family: Roboto, sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 120px;
+    margin-bottom: 30px;
+    color: #fff;
+    letter-spacing: 12px;
+}
+.banner-sub-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 280;
+    line-height: 30px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+
+.text-intro{
+    width:90%;
+    margin:auto;
+    text-align:center;
+    padding-top:30px;
+}
+/*Texte banière autres pages */
+.banner-autresheading {
+    font-family: Roboto, sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+    /*letter-spacing: 12px;*/
+}
+.banner-sub-autresheading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 280;
+    line-height: 30px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+/*____Flèche vers le bas _________*/
+
+@-webkit-keyframes bounce-arrow {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@-moz-keyframes bounce-arrow {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes bounce-arrow {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.arrow {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAgCAYAAAFhkLgdAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4JpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpGNzdGMTE3NDA3MjA2ODExODA4M0VCODNDNjJCRDdDMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5RjczNjdCMDIyQTIxMUU1QkZERkRGOUIzNjA2N0FEQiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5RjczNjdBRjIyQTIxMUU1QkZERkRGOUIzNjA2N0FEQiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNSAoTWFjaW50b3NoKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjJiYzkyNGFjLTU4NWQtNGQ0NS04MzQzLTc0NmQ4YzRlNmY5MSIgc3RSZWY6ZG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjZiMzgxZmQwLTI0MTYtMTE3OC1iZjlhLWI4MmNiZmNlNzFkNSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PiISz/AAAAFzSURBVHjaYvz//z8DDDAxIAGcnP8AAcRIvB64OoAAQtGDUwu6xAeQTjTxn8hGwRhgRQABxACSgOJPMDa6akaclpImiO6b/0xQw/8jW8aE4j4oDRBAuMLiPxbf4g4fkgJzYBT/xxJODOhyLGhB9B9NEbIchjMYofgrVA4l+AACCFs4VwAxKxA3o0tgU/wQiPmBWGA4RcogUMxHhDo+mOKPQDwdj8J+qBpw9i/+DwH90Oz/EIg/QNkdULkacExDBauhgp1IihugYk2wMgS5YGmESv6DYhDoQpJHUcwANRkGJqDJwRM/DJQD8V8gZgPiEnSfAgQYzjIUDdwDYkUgfgPEotSMQGYozUqTlEGzJDdq8AgyeBm02piCrTIlEoD09ULNWQcrWrL+o4LJQMyIlp8fQuU+oOdzIO5F01+MXliUoynoJWBwC5r6enylEANUATJoRTO4Dk2+DYsZWA2G4db/+EEfHr14DcYVhtjiAAMTW2ySDACxeFo8qtXLaAAAAABJRU5ErkJggg==');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 22px;
+    height: 32px;
+    margin: 64px auto 0 auto;
+
+    -webkit-animation: bounce-arrow 1s infinite ease-in-out;
+    -moz-animation:    bounce-arrow 1s infinite ease-in-out;
+    -o-animation:      bounce-arrow 1s infinite ease-in-out;
+    animation:         bounce-arrow 1s infinite ease-in-out;
+}
+
+/*____________________________Nos ateliers__________________*/
+
+h1.nosateliers
+{
+    width: 100%;
+    display: block;
+    text-align: center;
+    /*margin-top: 2%;*/
+    font-size: 68px;
+    font-family: 'Roboto', sans-serif;
+}
+p.p-ateliers{
+    margin-top: 5%;
+    font-size: 24px;
+    font-family: Montserrat,sans-serif;
+    text-align: center;
+    /* background-color: red;*/
+    height: 190px;
+    width: 50%;
+    margin-left: 25%;
+    display: block;
+
+}
+
+section.sectionateliers
+{
+    display: flex;
+    flex-direction: column;
+}
+
+div.selectchoix
+{
+    /*background-color: red;*/
+    display: inline-block;
+   margin: auto auto;
+text-align: center;
+    justify-content: center;
+
+
+}
+.card-img-top
+{
+    height: 224.11px;
+}
+
+
+
+
+/*________________________Test select bouton__________________*/
+/* https://gist.github.com/toddparker/32fc9647ecc56ef2b38a */
+
+/* Some basic page styles */
+
+.output
+{
+    width: 100%;
+    height: 560px;
+    /*background-color: red;*/
+
+
+}
+div.row
+{
+    display: flex;
+    justify-content: center;
+    margin-top:8%;
+}
+
+div.part.row
+{
+    display: flex;
+    justify-content: center;
+    margin-top:0%;
+}
+
+
+.colors {
+    padding: 2em;
+    color: #fff;
+    display: none;
+}
+
+select#colorselector
+{
+    width: 223.77px;
+    height: 45px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #c1c9ce ;
+    color: white;
+}
+
+ div.pro, div.part
+{
+    width: 100%;
+    height: 460px;
+    background-color: darkgray;
+   /* margin-top: 8%;*/
+
+}
+.test
+{
+    z-index: 1;
+    position: absolute;
+    display: block;
+}
+
+.opacity
+{
+    opacity:0%;
+}
+
+p.card-text
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+
+
+/*__________________________Formulaire de contact___________________*/
+
+
+.form
+{
+    width: 540px;
+    height: 440px;
+    /* background: #e6e6e6; */
+    border-radius: 8px;
+    /* box-shadow: 0 0 40px -10px #000; */
+    margin: 28px auto;
+    padding: 20px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+    position: relative;
+}
+
+.form-page-contacter
+{
+    width: 540px;
+    height: 440px;
+    /* background: #e6e6e6; */
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: 28px auto;
+    padding: 20px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+    position: relative;
+}
+.formulaire h2
+{
+    margin:10px 0;
+    padding-bottom:10px;
+    width:180px;color:#78788c;
+    border-bottom:3px solid #78788c
+}
+.formulaire input
+{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;outline:none;
+    resize:none;border:0;
+    font-family:'Montserrat',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #4a4a4a
+}
+.formulaire input:focus
+{
+    border-bottom:2px solid #78788c
+}
+.formulaire p:before
+{content:attr(type);
+    display:block;margin:28px 0 0;
+    font-size:14px;color:#5a5a5a
+}
+.formulaire button
+{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    border:2px solid #78788c;
+    border-radius: 15px;
+    background:0;
+    color:#5a5a6e;
+    cursor:pointer;
+    transition:all .3s
+}
+.formulaire button:hover
+{
+    background:#78788c;
+    color:#fff;
+}
+.formulaire div
+{
+    content:'Hi';
+    position:absolute;
+    bottom:-15px;right:-20px;
+    background:#fff;
+    color:#000;
+    width:320px;
+    padding:16px 4px 16px 0;border-radius:6px;
+    font-size:13px;
+    box-shadow:10px 10px 40px -14px #000
+}
+.formulaire span
+{
+    margin:0 5px 0 15px
+}
+/*____________Responsive Menu_______________*/
+
+/* mobile view */
+@media (max-width:500px)
+{
+    .navbar-nav{
+        background-color:#000;
+        border-top:3px solid #fed136;
+        color:#fff;
+        z-index:1;
+        margin-top:5px;
+    }
+    .navbar-nav .nav-item .nav-link{
+        padding: 0.7em 1em!important;
+        font-size: 100%;
+        font-weight: 500;
+    }
+    .banner-text{
+        padding:150px 0 150px 0;
+    }
+    .banner-heading{
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .banner-sub-heading{
+        font-size: 10px;
+        font-weight: 200;
+        line-height: 10px;
+        margin-bottom: 40px;
+    }
+
+}
+
+@media (max-width:768px){
+    .banner-text{
+        padding:150px 0 150px 0;
+    }
+    .banner-sub-heading{
+        font-size: 23px;
+        font-weight: 200;
+        line-height: 23px;
+        margin-bottom: 40px;
+    }
+}
+
+/*_______________Notre réseau________________*/
+
+section.sectionpartenaires
+{
+    width: 100%;
+    height:637px;
+    background-color:#f0f2f1;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+section.nosevents
+{
+    width: 100%;
+    height:740px;
+    background-color:#ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*_______Images Des Events__________*/
+section.nosevents div.image-events-1
+{
+    width: 435px;
+    height:419px ;
+    background-color: darkgrey;
+}
+section.nosevents div.image-events-2
+{
+    width: 435px;
+    height:419px;
+    background-color: grey;
+}
+
+section.nosevents div.image-events-3
+{
+    width: 257px ;
+    height: 380px;
+    background-color: darkgray;
+}
+
+
+    /*__Fiche presentaion des partenaires*/
+
+
+
+
+/*__________________Page de contact_________________*/
+h2.titre-nous-contacter
+{
+    /*background-color: rebeccapurple;*/
+    height: 10px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+    font-size: 60px;
+}
+
+.contact, .contactmap
+{
+    width: 100%;
+    height: 484px;
+
+}
+.contact
+{
+    background-color: #B2EDFE;
+    width: inherit;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 6%;
+}
+
+
+.contactmap
+{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    width: 90%;
+
+}
+.photoagence
+{
+    width: 45%;
+    height: 100%;
+    background-color: #626262;
+}
+img
+{
+    width: 100%;
+    height: 100%;
+}
+
+div.contactmap iframe
+{
+    border: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+
+}
+
+/*____________________Style Avis clients ___________________*/
+/* FontAwesome for working BootSnippet :> */
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+a.btn.btn-primary.btn-sm
+{
+    background-color: #275674;
+    border-color: #275674;
+}
+
+section {
+    padding: 30px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #000000;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
